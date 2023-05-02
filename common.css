@@ -1,15 +1,15 @@
 @font-face {
-    font-family: DMSans-Regular;
+    font-family: 'DMSans-Regular';
     src: url('../assets/fonts/DMSans-Regular.ttf') format('woff2');
 }
 
 @font-face {
-    font-family: DMSans-Medium;
+    font-family: 'DMSans-Medium';
     src: url('../assets/fonts/DMSans-Medium.ttf') format('woff2');
 }
 
 @font-face {
-    font-family: DMSans-Bold;
+    font-family: 'DMSans-Bold';
     src: url('../assets/fonts/DMSans-Bold.ttf') format('woff2');
 }
 
