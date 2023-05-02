@@ -1,0 +1,93 @@
+#content {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.small {
+  padding: 20px;
+  width: 40%;
+  min-width: 300px;
+  min-height: 400px;
+  font-family: DMSans-Regular;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border:before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 50%;
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(26.57deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%) 1;
+}
+
+.double {
+  width: 60%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.wrapper {
+  max-width: 250px;
+}
+
+.wrapper p {
+  margin: 30px 0;
+  opacity: 60%;
+}
+
+.info-container {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: DMSans-Regular;
+  padding: 50px;
+}
+
+.info-container>.item {
+  flex: 1 1 30%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.item h3 {
+  margin: 15px 0;
+}
+
+.feature-invite {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.feature-invite img {
+  width: 100%;
+  min-height: 250px;
+  object-fit: cover;
+  display: block;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png" />
+    <link rel="stylesheet" href="../../common.css" />
+    <link rel="stylesheet" href="./pricing.css" />
+    <link rel="stylesheet" href="../../pages/media.css" />
+
+    <title>Frontend Mentor | Photosnap Website Challenge</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="grid">
+            <header>
+                <a href="../../index.html">
+                    <img src="../../assets/shared/desktop/logo.svg" alt="logo" />
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../Stories/stories.html">STORIES</a>
+                        </li>
+                        <li>
+                            <a href="../Features/features.html">FEATURES</a>
+                        </li>
+                        <li>
+                            <a href="../Pricing/pricing.html">PRICING</a>
+                        </li>
+                        <li>
+                            <div class="hr"></div>
+                        </li>
+                        <li>
+                            <button class="burger-menu-btn">GET AN INVITE</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger-menu-icon">
+                    <span></span>
+                    <span></span>
+                </div>
+                <button class="nav-btn">GET AN INVITE</button>
+            </header>
+
+            <div class="range-box">
+                <div class="year-box">
+                    <p class="monthly">Monthly</p>
+
+                    <input id="range" type="range" name="range" min="0" max="1" />
+                    <p class="year monthly">Yearly</p>
+                </div>
+                <section>
+                    <div class="first-box">
+                        <h2>Basic</h2>
+                        <p class="text basic">
+                            Includes basic usage of our platform. Recommended for new and aspiring photographers.
+                        </p>
+                        <div class="month">
+                            <p class="price">$19.00</p>
+                            <p class="per">per month</p>
+                        </div>
+                        <button class="btn">PICK PLAN</button>
+                    </div>
+                    <div class="first-box sec-box">
+                        <h2 class="white-color">Pro</h2>
+                        <p class="text basic white-color">
+                            More advanced features available. Recommended for photography veterans and professionals.
+                        </p>
+                        <div class="month">
+                            <p class="price white-color">$39.00</p>
+                            <p class="per white-color">per month</p>
+                        </div>
+                        <button class="btn btn-box">PICK PLAN</button>
+                    </div>
+                    <div class="first-box">
+                        <h2>Business</h2>
+                        <p class="text basic">
+                            Additional features available such as more detailed metrics. Recommended for business owners.
+                        </p>
+                        <div class="month">
+                            <p class="price">$99.00</p>
+                            <p class="per">per month</p>
+                        </div>
+                        <button class="btn">PICK PLAN</button>
+                    </div>
+                </section>
+            </div>
+            <div class="beta-box">
+                <div class="bot-line"></div>
+                <h1 class="beta">We’re in beta. Get your invite today!</h1>
+                <p>
+                    GET AN INVITE
+                    <img class="arrow" src="../../assets/shared/desktop/arrow.svg" alt="" />
+                </p>
+            </div>
+
+            <footer>
+                <div class="section">
+                    <div>
+                        <img src="../../assets/shared/desktop/logo-white.svg" alt="logo" />
+                    </div>
+                    <div class="icon-group">
+                        <span class="fb"></span>
+                        <span class="you"></span>
+                        <span class="twi"></span>
+                        <span class="pin"></span>
+                        <span class="ins"></span>
+                    </div>
+                </div>
+                <div class="section">
+                    <div>
+                        <a href="#">GET AN INVITE</a>
+                        <svg stroke="white" width="43" height="14">
+              <path d="M0 7h41.864M35.428 1l6 6-6 6"></path>
+            </svg>
+                    </div>
+                    <div>
+                        <p>Copyright 2019. All Rights Reserved</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./pricing.js"></script>
+    <script src="../../app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+.baner {
+  position: relative;
+  color: white;
+  width: 100%;
+  font-family: DMSans-Regular;
+}
+
+.baner-img {
+  width: 100%;
+  min-height: 650px;
+  object-fit: cover;
+  display: block;
+}
+
+.bener-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  max-width: 330px;
+  position: absolute;
+  top: 20%;
+  left: 60px;
+}
+
+.bener-text h1 {
+  font-size: 40px;
+  margin: 20px 0px;
+}
+
+.bener-text span {
+  opacity: 60%;
+}
+
+.bener-text p:nth-child(4) {
+  opacity: 60%;
+  line-height: 25px;
+  margin: 20px 0px;
+}
+
+.bener-text a {
+  display: inline-block;
+  color: white;
+  margin-right: 10px;
+}
+
+
+/* after hover linie animation */
+
+.bener-text a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f8f6f6;
+  transition: width .3s;
+}
+
+.bener-text a:hover::after {
+  width: 100%;
+}
