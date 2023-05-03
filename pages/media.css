@@ -77,6 +77,10 @@
         flex: 1 1 100%;
     }
 
+    .invite-wrapper {
+        flex-direction: column;
+    }
+
     @media screen and (max-width: 420px) {
         .card {
             width: 100%;

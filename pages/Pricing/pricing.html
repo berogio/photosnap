@@ -1,132 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../assets/favicon-32x32.png"
+    />
     <link rel="stylesheet" href="../../common.css" />
     <link rel="stylesheet" href="./pricing.css" />
     <link rel="stylesheet" href="../../pages/media.css" />
 
     <title>Frontend Mentor | Photosnap Website Challenge</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main">
-        <div class="grid">
-            <header>
-                <a href="../../index.html">
-                    <img src="../../assets/shared/desktop/logo.svg" alt="logo" />
-                </a>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="../Stories/stories.html">STORIES</a>
-                        </li>
-                        <li>
-                            <a href="../Features/features.html">FEATURES</a>
-                        </li>
-                        <li>
-                            <a href="../Pricing/pricing.html">PRICING</a>
-                        </li>
-                        <li>
-                            <div class="hr"></div>
-                        </li>
-                        <li>
-                            <button class="burger-menu-btn">GET AN INVITE</button>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="burger-menu-icon">
-                    <span></span>
-                    <span></span>
-                </div>
-                <button class="nav-btn">GET AN INVITE</button>
-            </header>
-
-            <div class="range-box">
-                <div class="year-box">
-                    <p class="monthly">Monthly</p>
-
-                    <input id="range" type="range" name="range" min="0" max="1" />
-                    <p class="year monthly">Yearly</p>
-                </div>
-                <section>
-                    <div class="first-box">
-                        <h2>Basic</h2>
-                        <p class="text basic">
-                            Includes basic usage of our platform. Recommended for new and aspiring photographers.
-                        </p>
-                        <div class="month">
-                            <p class="price">$19.00</p>
-                            <p class="per">per month</p>
-                        </div>
-                        <button class="btn">PICK PLAN</button>
-                    </div>
-                    <div class="first-box sec-box">
-                        <h2 class="white-color">Pro</h2>
-                        <p class="text basic white-color">
-                            More advanced features available. Recommended for photography veterans and professionals.
-                        </p>
-                        <div class="month">
-                            <p class="price white-color">$39.00</p>
-                            <p class="per white-color">per month</p>
-                        </div>
-                        <button class="btn btn-box">PICK PLAN</button>
-                    </div>
-                    <div class="first-box">
-                        <h2>Business</h2>
-                        <p class="text basic">
-                            Additional features available such as more detailed metrics. Recommended for business owners.
-                        </p>
-                        <div class="month">
-                            <p class="price">$99.00</p>
-                            <p class="per">per month</p>
-                        </div>
-                        <button class="btn">PICK PLAN</button>
-                    </div>
-                </section>
+      <div class="grid">
+        <header>
+          <a href="../../index.html">
+            <img src="../../assets/shared/desktop/logo.svg" alt="logo" />
+          </a>
+          <nav>
+            <ul>
+              <li>
+                <a href="../Stories/stories.html">STORIES</a>
+              </li>
+              <li>
+                <a href="../Features/features.html">FEATURES</a>
+              </li>
+              <li>
+                <a href="../Pricing/pricing.html">PRICING</a>
+              </li>
+              <li>
+                <div class="hr"></div>
+              </li>
+              <li>
+                <button class="burger-menu-btn">GET AN INVITE</button>
+              </li>
+            </ul>
+          </nav>
+          <div class="burger-menu-icon">
+            <span></span>
+            <span></span>
+          </div>
+          <button class="nav-btn">GET AN INVITE</button>
+        </header>
+        <div class="main-box">
+          <div class="hero-box">
+            <img
+              class="hero-mob"
+              src="../../assets/pricing/mobile/hero.jpg"
+              alt=""
+            />
+            <img
+              class="hero-tab"
+              src="../../assets/pricing/tablet/hero.jpg"
+              alt=""
+            />
+            <img
+              class="hero-desk"
+              src="../../assets/pricing/desktop/hero.jpg"
+              alt=""
+            />
+            <div class="pricing">
+              <div class="top-line"></div>
+              <h1>PRICING</h1>
+              <p>
+                Create a your stories, Photosnap is a platform for photographers
+                and visual storytellers. It’s the simple way to create and share
+                your photos.
+              </p>
             </div>
-            <div class="beta-box">
-                <div class="bot-line"></div>
-                <h1 class="beta">We’re in beta. Get your invite today!</h1>
-                <p>
-                    GET AN INVITE
-                    <img class="arrow" src="../../assets/shared/desktop/arrow.svg" alt="" />
+          </div>
+          <div class="range-box">
+            <div class="year-box">
+              <p class="monthly">Monthly</p>
+
+              <input id="range" type="range" name="range" min="0" max="1" />
+              <p class="year monthly">Yearly</p>
+            </div>
+            <section>
+              <div class="first-box">
+                <h2>Basic</h2>
+                <p class="text basic">
+                  Includes basic usage of our platform. Recommended for new and
+                  aspiring photographers.
                 </p>
-            </div>
+                <div class="month">
+                  <p class="price">$19.00</p>
+                  <p class="per">per month</p>
+                </div>
+                <button class="btn">PICK PLAN</button>
+              </div>
+              <div class="first-box sec-box">
+                <h2 class="white-color">Pro</h2>
+                <div class="pro-line"></div>
+                <p class="text basic white-color">
+                  More advanced features available. Recommended for photography
+                  veterans and professionals.
+                </p>
+                <div class="month">
+                  <p class="price white-color">$39.00</p>
+                  <p class="per white-color">per month</p>
+                </div>
+                <button class="btn btn-box">PICK PLAN</button>
+              </div>
+              <div class="first-box">
+                <h2>Business</h2>
+                <p class="text basic">
+                  Additional features available such as more detailed metrics.
+                  Recommended for business owners.
+                </p>
+                <div class="month">
+                  <p class="price">$99.00</p>
+                  <p class="per">per month</p>
+                </div>
+                <button class="btn">PICK PLAN</button>
+              </div>
+            </section>
+          </div>
+          <div class="compar">
+            <h1>COMPARE</h1>
+            <table class="mob-table">
+              <thead>
+                <tr class="tr">
+                  <th id="th-main" class="th th-th">THE FEATURES</th>
+                  <th class="th-th"></th>
+                  <th class="th-th"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tr">
+                  <th id="th-main" class="th">UNLIMITED STORY POSTING</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <th id="th-main" class="th">UNLIMITED PHOTO UPLOAD</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <th id="th-main" class="th">EMBEDDING CUSTOM CONTENT</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td></td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <th id="th-main" class="th">CUSTOMIZE METADATA</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td></td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <th id="th-main" class="th">ADVANCED METRICS</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <th id="th-main" class="th">PHOTO DOWNLOADS</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <th id="th-main" class="th">SEARCH ENGINE INDEXING</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <th id="th-main" class="th">CUSTOM ANALYTICS</th>
+                </tr>
+                <tr class="tr">
+                  <th class="th">BASIC</th>
+                  <th class="th">PRO</th>
+                  <th class="th">BUSINESS</th>
+                </tr>
+                <tr class="tr">
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- //////////// tab version/////////////// -->
+            <table class="table-tab">
+              <tbody>
+                <tr>
+                  <th>THE FEATURES</th>
+                  <th>BASIC</th>
+                  <th>PRO</th>
+                  <th>BUSINESS</th>
+                </tr>
+                <tr>
+                  <th>UNLIMITED STORY POSTING</th>
 
-            <footer>
-                <div class="section">
-                    <div>
-                        <img src="../../assets/shared/desktop/logo-white.svg" alt="logo" />
-                    </div>
-                    <div class="icon-group">
-                        <span class="fb"></span>
-                        <span class="you"></span>
-                        <span class="twi"></span>
-                        <span class="pin"></span>
-                        <span class="ins"></span>
-                    </div>
-                </div>
-                <div class="section">
-                    <div>
-                        <a href="#">GET AN INVITE</a>
-                        <svg stroke="white" width="43" height="14">
-              <path d="M0 7h41.864M35.428 1l6 6-6 6"></path>
-            </svg>
-                    </div>
-                    <div>
-                        <p>Copyright 2019. All Rights Reserved</p>
-                    </div>
-                </div>
-            </footer>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+
+                <tr>
+                  <th>UNLIMITED PHOTO UPLOAD</th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+
+                <tr>
+                  <th>EMBEDDING CUSTOM CONTENT</th>
+                  <th></th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+                <tr>
+                  <th>CUSTOMIZE METADATA</th>
+                  <th></th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+                <tr>
+                  <th>ADVANCED METRICS</th>
+                  <th></th>
+                  <th></th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+                <tr>
+                  <th>PHOTO DOWNLOADS</th>
+                  <th></th>
+                  <th></th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+                <tr>
+                  <th>SEARCH ENGINE INDEXING</th>
+                  <th></th>
+                  <th></th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+                <tr>
+                  <th>CUSTOM ANALYTICS</th>
+                  <th></th>
+                  <th></th>
+                  <th>
+                    <img src="../../assets/pricing/desktop/check.svg" alt="" />
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="beta-box">
+            <div class="bot-line"></div>
+            <h1 class="beta">We’re in beta. Get your invite today!</h1>
+            <p>
+              GET AN INVITE
+              <img
+                class="arrow"
+                src="../../assets/shared/desktop/arrow.svg"
+                alt=""
+              />
+            </p>
+          </div>
         </div>
+        <footer>
+          <div class="section">
+            <div>
+              <img
+                src="../../assets/shared/desktop/logo-white.svg"
+                alt="logo"
+              />
+            </div>
+            <div class="icon-group">
+              <span class="fb"></span>
+              <span class="you"></span>
+              <span class="twi"></span>
+              <span class="pin"></span>
+              <span class="ins"></span>
+            </div>
+          </div>
+          <div class="section">
+            <div>
+              <a href="#">GET AN INVITE</a>
+              <svg stroke="white" width="43" height="14">
+                <path d="M0 7h41.864M35.428 1l6 6-6 6"></path>
+              </svg>
+            </div>
+            <div>
+              <p>Copyright 2019. All Rights Reserved</p>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
     <script src="./pricing.js"></script>
     <script src="../../app.js"></script>
-</body>
-
+  </body>
 </html>

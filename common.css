@@ -13,6 +13,16 @@
   src: url('./assets/fonts/DMSans-Bold.ttf') format('woff2');
 }
 
+@keyframes open-menu {
+  from {
+    top: -200px;
+  }
+
+  to {
+    top: 10;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -119,6 +129,12 @@ nav ul button:hover {
   right: 0;
   text-align: center;
   padding: 0 40px;
+}
+
+.open-animation {
+  animation-name: open-menu;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards
 }
 
 .burger-menu-btn {
