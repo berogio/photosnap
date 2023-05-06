@@ -3,7 +3,6 @@ const nav = document.querySelector('nav')
 const menuIcon = document.querySelector('.burger-menu-icon').children
 const featuresBox = document.querySelector('.features-box')
 const cardsContainer = document.querySelector('.container')
-console.log(cardsContainer)
 menuBtn.addEventListener('click', () => {
     menuIcon[0].classList.toggle('rotateX')
     menuIcon[1].classList.toggle('rotateY')
@@ -39,10 +38,8 @@ const cardsData = [{
 
 ]
 
-
 const postContainer = () => {
     cardsData.map((postData) => {
-        console.log(postData)
         const postElement = document.createElement('div')
         postElement.classList.add('card');
         postElement.innerHTML = `<img src="${postData.Link}">
@@ -61,6 +58,5 @@ const postContainer = () => {
     })
 
 }
-
 
 postContainer()
